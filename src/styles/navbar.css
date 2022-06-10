@@ -1,14 +1,16 @@
 .navbar {
+    display: flex;
+    flex-direction: row;
+
     width: 360px;
     height: 64px;
-    left: 0px;
-    top: 0px;
-
     background: #0277BD;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 
 .title {
-    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
     height: 29px;
     left: 0%;
     right: 0%;
@@ -24,4 +26,36 @@
     letter-spacing: 0.15px;
 
     color: #FFFFFF;
+}
+
+.iconButton {
+    background-color: #0277BD;
+    border: none; 
+    color: white; 
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.iconButton:hover {
+    background-color: #0277BD;
+}
+
+.searchButton {
+    margin-left: auto;
+    background-color: #0277BD;
+    border: none; 
+    color: white; 
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cartButton {
+    background-color: #0277BD;
+    border: none; 
+    color: white; 
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
 }
