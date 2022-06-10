@@ -1,0 +1,27 @@
+.navbar {
+    width: 360px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    background: #0277BD;
+}
+
+.title {
+    position: absolute;
+    height: 29px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 29px/2 + 1px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+
+    /* identical to box height */
+    letter-spacing: 0.15px;
+
+    color: #FFFFFF;
+}
