@@ -1,6 +1,9 @@
 import React from "react";
-import "../../styles/pastillero.css";
+import "../../styles/container.css";
+
 import Navbar from "./Navbar";
+import Description from "./Description";
+import Remaining from "./Remaining";
 
 export default function Container(props) {
     return(

@@ -4,7 +4,9 @@
     flex-direction: column;
     width: 360px;
     height: 640px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vmin;
     background: #FFFFFF;
 }
 
