@@ -31,6 +31,7 @@
 .informationMessage {
     width: 320px;
     height: 24px;
+    margin-bottom: 3vmin;
 
     font-family: 'Poppins';
     font-style: normal;
