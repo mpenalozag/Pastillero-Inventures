@@ -8,8 +8,8 @@ export default function Medicine(props) {
             <div className="medicineDetails">
                 <div className="medicineName">{props.name}</div>
                 <div className="medicineDose">{props.concentration}</div>
-                <div className="medicineRemaining">Quedan X comprimidos</div>
-                <div className="medicineDaysLeft">Para Y dias</div>
+                <div className="medicineRemaining">Quedan {props.remainder} comprimidos</div>
+                <div className="medicineDaysLeft">Para {props.remainder} dias</div>
             </div>
             <button className="shoppingCart"><i className="fa fa-cart-plus" aria-hidden="true"></i></button>
         </div>
