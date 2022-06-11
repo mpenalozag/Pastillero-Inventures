@@ -8,7 +8,6 @@
     margin: 2vmax;
     width: 62px;
     height: 62.66px;
-    border: 1px solid #E0E0E0;
 }
 
 .medicineDetails {
@@ -36,6 +35,7 @@
 .medicineDose {
     width: 42px;
     height: 20px;
+    white-space: nowrap;
 
     font-family: 'Poppins';
     font-style: normal;

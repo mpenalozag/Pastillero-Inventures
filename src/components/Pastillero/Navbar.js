@@ -4,10 +4,10 @@ import "../../styles/navbar.css";
 export default function Navbar(props) {
     return(
         <div className="navbar">
-            <button class="iconButton"><i class="fa fa-bars"></i></button>
+            <button className="iconButton"><i className="fa fa-bars"></i></button>
             <div className="title">Mi pastillero</div>
-            <button className="searchButton"><i class="fa fa-search" aria-hidden="true"></i></button>
-            <button className="cartButton"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+            <button className="searchButton"><i className="fa fa-search" aria-hidden="true"></i></button>
+            <button className="cartButton"><i className="fa fa-shopping-cart" aria-hidden="true"></i></button>
         </div>
     )
 }
