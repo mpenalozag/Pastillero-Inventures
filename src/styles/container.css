@@ -10,3 +10,9 @@
     background: #FFFFFF;
 }
 
+.medicinesContainer {
+    display: flex;
+    flex-direction: column;
+    width: 360;
+    overflow-y: auto;
+}
