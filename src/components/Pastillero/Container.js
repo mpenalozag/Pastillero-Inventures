@@ -16,7 +16,7 @@ export default function Container(props) {
         async function getMedicines() {
             const response = await axios.get("https://private-anon-a435fe137d-inventurestest.apiary-mock.com/products");
             const data = response.data;
-            setMedicines(response.data.payload);
+            setMedicines(data.payload);
         }
         async function getPurchases() {
             const response = await axios.get("https://private-anon-a435fe137d-inventurestest.apiary-mock.com/purchases");
