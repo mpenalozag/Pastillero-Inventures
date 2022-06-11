@@ -1,0 +1,98 @@
+.medicine {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.medicinePhoto {
+    margin: 2vmax;
+    width: 62px;
+    height: 62.66px;
+    border: 1px solid #E0E0E0;
+}
+
+.medicineDetails {
+    margin-top: 1vmax;
+    display: flex;
+    flex-direction: column;
+}
+
+.medicineName {
+    width: 151px;
+    height: 23px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+
+    /* identical to box height */
+    letter-spacing: 0.15px;
+
+    color: #414046;
+}
+
+.medicineDose {
+    width: 42px;
+    height: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+    /* identical to box height */
+    letter-spacing: 0.15px;
+
+    color: rgba(0, 0, 0, 0.54);
+
+
+}
+
+.medicineRemaining {
+    width: 165px;
+    height: 20px;
+    white-space: nowrap;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+    /* identical to box height */
+    letter-spacing: 0.15px;
+    text-decoration-line: underline;
+
+    color: #0277BD;
+}
+
+.medicineDaysLeft {
+    width: 78px;
+    height: 18px;
+    white-space: nowrap;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    /* identical to box height */
+    letter-spacing: 0.4px;
+    text-decoration-line: underline;
+
+    color: #0277BD;
+}
+
+.shoppingCart {
+    margin-left: auto;
+    background-color: white;
+    border: none; 
+    color: black; 
+    padding: 12px 16px;
+    font-size: 35px;
+    cursor: pointer;
+}
