@@ -10,6 +10,7 @@ export default function Container(props) {
         <div className="container">
             <Navbar />
             <Description />
+            <Remaining />
         </div>
     )
 }
